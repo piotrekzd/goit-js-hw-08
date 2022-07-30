@@ -19,7 +19,7 @@ const galleryImages = galleryItems
         </div>`
         return item;
     })
-    .join(" ");
+    .join(' ');
 
 gallery.insertAdjacentHTML('afterbegin', galleryImages);
 
